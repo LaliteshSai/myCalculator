@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 500px;
+    
+    width: 300px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.screen{
+    height: 150px;
+    width: 100%;
+    border-radius: 12px;
+    background-color: rgb(26, 23, 23);
+    color: white;
+    text-align: right;
+    pointer-events: none;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.color{
+    background-color: black;
+    border-radius: 12px 12px 0 0;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 18px;
+    border-radius: 3px;
+    background-color: rgb(28, 26, 26);
+}
+
+button{
+    margin: 5px 0px ;
+    /* padding: 5px 5px; */
+    border: 1px solid rgb(43, 40, 40);
+    flex: 0 0 23%;
+    height: 56px;
+    width: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.btn-orange{
+    background-color: rgb(253, 170, 54);
+    border: 1px solid rgb(253, 170, 54);
+}
+.btn-white{
+    background-color: rgb(147, 199, 255);
+    border: 1px solid rgb(147, 199, 255);
+}
+.btn-equal{
+    background-color: rgb(128, 255, 153);
+    border: 1px solid rgb(128, 255, 153);
+}
+.btn-clear{
+    background-color: rgb(255, 137, 137);
+    border: 1px solid rgb(255, 137, 137);
+}
